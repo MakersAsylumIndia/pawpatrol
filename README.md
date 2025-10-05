@@ -2,21 +2,9 @@
 
 Hey there! 👋
 
-This repository is your home for documenting your **Innovation School Project** and starting your **maker portfolio**.  
-You’ll be using the **GitHub Wiki** to update all your project details in a structured format.
+Pawwered Up is a bio-inspired prosthetic leg designed to replicate the natural motion of a dog’s limb using real-time sensor feedback. Built around the ESP32 XIAO C3 microcontroller, the system uses two MPU6050 motion sensors — one mounted on the intact leg and another on the prosthetic leg — to synchronize movement between them.
 
----
-
-## 🧠 What to Do First
-
-Start by writing a **brief introduction** to your project right here in this `README.md` file:
-
-🔹 What problem are you solving?  
-🔹 What’s your proposed solution?
-
-Just 2–3 lines are enough. This helps others quickly understand what your project is about.
-
-Click on the ✏️ PENCIL icon next to the README title above, and you can edit the README directly from within your browser.
+The sensors detect orientation and acceleration data, allowing the prosthetic leg’s servo motors (hip and knee) to mimic the gait of the healthy leg with precision. Powered by a rechargeable battery, the system aims to provide a low-cost, modular, and open-source assistive technology for injured or amputee dogs, emphasizing both engineering innovation and animal welfare.
 
 ---
 
